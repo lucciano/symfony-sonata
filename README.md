@@ -1,8 +1,8 @@
-Symfony Standard Edition
-========================
+Symfony Standard Edition + Sonata (With Doctrine ORM)
+=====================================================
 
-Welcome to the Symfony Standard Edition - a fully-functional Symfony
-application that you can use as the skeleton for your new applications.
+Welcome to the Symfony Sonata Doctrine - a fully-functional Symfony
+application that you can use as the skeleton for your new admins applications.
 
 For details on how to download and get started with Symfony, see the
 [Installation][1] chapter of the Symfony Documentation.
@@ -21,6 +21,8 @@ The Symfony Standard Edition is configured with the following defaults:
   * Swiftmailer;
 
   * Annotations enabled for everything.
+
+  * Sonata Admin + Sonata ORM 
 
 It comes pre-configured with the following bundles:
 
@@ -53,8 +55,9 @@ It comes pre-configured with the following bundles:
   * **DebugBundle** (in dev/test env) - Adds Debug and VarDumper component
     integration
 
-All libraries and bundles included in the Symfony Standard Edition are
-released under the MIT or BSD license.
+  * **SonataAdminBundle** - The main sonata admin 
+
+  * **SonataDoctrineORMAdminBundle** - The doctrine sonata connection
 
 Enjoy!
 
